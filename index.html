@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewpoort" content="width-device-width,initial-scale=1.0">
+    <title>HTML&CSS 実践</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#service">SERVICE</a></li>
+          <li><a href="#news">NEWS</a></li>
+          <li><a href="#price">PRICE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="top">
+        <div class="top-wrapper">
+          <h1>WithCode Mobile</h1>
+        </div>
+      </section>
+      <section id="service">
+        
+          <h2 class="section-title">SERVICE</h2>
+        <div class="service-wrapper">
+        <div class="service-left">
+          <img src="img/service.png" alt="サービス画像">
+        </div>
+        <div class="service-right">
+          <h3><strong>新春９９９円キャンペーン</strong></h3>
+          <p>※ 以下条件のすべてを満たした場合に「新春９９０円キャンペーン」の適用となります。</p>
+          <hr>
+          <p>個人契約のお客さまであること<br>
+          シンプルS/M/L（以下「対象プラン」といいます。）にご加入いただくこと<br>
+          スーパーだれとでも定額（S）にお申し込みいただくこと<br>
+          当社システムに登録された使用者年齢が以下のいずれかの時点で60歳以上であること<br>
+          ・ 対象プランにご契約いただいた時点<br>
+          ・ スーパーだれとでも定額（S）へのお申し込み時点<br>
+          ・ 機種変更、プラン変更などの情報変更のお申し込み時点</p>
+        </div>
+        </div>
+      </section>
+      <section id="news">
+        <h2 class="section-title">NEWS</h2>
+        <div class="news-wrapper">
+          <p>2021/1/1   地震による通信状況の悪化に関する情報</p>
+          <p>2020/12/1   年末年始の店舗休業案内</p>
+          <p>2020/8/1   台風による通信環境悪化に関する情報</p>
+        </div>
+      </section>
+      <section id="price">
+        <h2 class="section-title">PRICE</h2>
+        <div class="price-wrapper">
+          <table>
+            <tr>
+              <th>ー</th>
+              <th>１０GBパック</th>
+              <th>１５GBパック</th>
+            </tr>
+            <tr>
+              <th>基本料金</th>
+              <th>９９０円/月</th>
+              <th>９９０円/月</th>
+            </tr>
+            <tr>
+              <th>データ料金</th>
+              <th>９００円/月</th>
+              <th>１５００円/月</th>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="section-title">CONTACT</h2>
+        <form class="form" method="post">
+          <div>
+            <label for="name">お名前</label>
+            <input type="text" name="user-name" id="name">
+          </div>
+          <div>
+            <label for="mail">メールアドレス</label>
+            <input type="email" id="mail" name="user-mail">
+          </div>
+          <div>
+            <label for="tel">電話番号</label>
+            <input type="tel" id="tel" name="user-tel">
+          </div>
+          <div>
+            <label for="msg">お問い合わせ内容</label>
+            <textarea name="user-message" id="msg"></textarea>
+          </div>
+          <div class="button">
+            <button class="button-submit" type="submit">送信</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <div>
+        <small>© 2021 WithCode All rights reserved.</small>
+      </div>
+    </footer>
+  </body>
+</html>
